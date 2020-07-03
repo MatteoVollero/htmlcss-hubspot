@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  height: 500px;
+  background-color: red;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.container hr{
+  padding: 10px;
+}
+
+.navbar{
+  width: 50%;
+  background-color: #f4f9fd;
+  height: 50px;
+  float: left;
+}
+
+.clearfix::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.navbar a{
+  color: #32495b;
+  text-decoration: none;
+}
+
+.navbar li{
+  line-height: 50px;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #32495b;
+  display: inline-block;
+  list-style: none;
+  margin-right: 10px;
+}
+
+.fa-globe-europe{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.fa-angle-down{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+}
+
+.nav-right{
+  text-align: right;
+}
+
+.btn{
+  border-radius: 5px;
+  color: #fe775a;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.btn-vuoto{
+  border-color: #fe775a;
+  border-width: 1px;
+}
+
+.btn-pieno{
+  color: white;
+  background-color: #fe775a;
+  border: none;
+}
