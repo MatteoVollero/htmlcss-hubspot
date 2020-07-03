@@ -13,6 +13,11 @@ body{
    height: 70px;
 }
 
+.header-color2{
+  background-color: #ffff;
+  height: 70px;
+}
+
 
 .container{
   width: 80%;
@@ -30,7 +35,6 @@ body{
 
 .navbar{
   width: 50%;
-  background-color: #f4f9fd;
   height: 70px;
   float: left;
   padding-top: 10px;
@@ -96,7 +100,7 @@ body{
 }
 
 .header-image{
-  height: 500px;
+  height: 580px;
   background-image: url(../img/jumbotron.png);
   background-size: cover;
   background-repeat: no-repeat;
