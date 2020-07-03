@@ -8,10 +8,11 @@ body{
   font-family: 'Roboto', sans-serif;
 }
 
-header{
-  height: 500px;
-  background-color: red;
+.header-color{
+   background-color: #f4f9fd;
+   height: 70px;
 }
+
 
 .container{
   width: 80%;
@@ -92,4 +93,11 @@ header{
 
 .hubspot-info{
     height: 50px;
+}
+
+.header-image{
+  height: 500px;
+  background-image: url(../img/jumbotron.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
