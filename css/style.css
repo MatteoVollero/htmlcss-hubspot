@@ -19,14 +19,20 @@ header{
 }
 
 .container hr{
-  padding: 10px;
+  margin: 20px 0px;
+}
+
+.container img{
+  float: left;
+  padding: 10px 10px;
 }
 
 .navbar{
   width: 50%;
   background-color: #f4f9fd;
-  height: 50px;
+  height: 70px;
   float: left;
+  padding-top: 10px;
 }
 
 .clearfix::after{
@@ -82,4 +88,8 @@ header{
   color: white;
   background-color: #fe775a;
   border: none;
+}
+
+.hubspot-info{
+    height: 50px;
 }
