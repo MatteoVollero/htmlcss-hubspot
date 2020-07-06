@@ -261,7 +261,8 @@ body{
 
 .colonna{
   width: 29%;
-  margin-right: 4%;
+  margin-right: 3%;
+  margin-left: 1%;
   height: 500px;
   background-color: red;
   margin-top: 10px;
@@ -274,6 +275,10 @@ body{
 
 .colonna p{
   margin-bottom: 50px;
+}
+
+.colonna h2{
+  font-size: 20px;
 }
 
 .colonna h4{
@@ -312,5 +317,73 @@ body{
 }
 
 .colonna button{
-  margin-top: 45px;
+  margin-top: 25px;
+}
+
+.middle-main{
+   background-color: #00abb6;
+   text-align: center;
+   margin-top: 40px;
+   height: 450px;
+   color: white;
+}
+
+.middle-main-container{
+  width: 60%;
+  height: inherit;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.middle-main-container p{
+  font-size: 10px;
+  width: auto;
+  color: white;
+}
+
+.fa-handshake{
+  background-color: black;
+  color: white;
+  width: 30px;
+  height: 30px;
+}
+
+.middle-main-container h2{
+  font-size: 24px;
+  color: white;
+}
+
+.blocco{
+  width: 25%;
+  height: 100px;
+  /* background-color: green; */
+  border-right: 1px solid white;
+  border-bottom:  1px solid white;
+  float: left;
+}
+
+.sezione{
+  padding-top: 25px;
+  text-align: center;
+
+}
+
+.sezione h4{
+  margin-bottom: 5px;
+}
+
+.sezione h3{
+  margin-bottom: 5px;
+}
+
+.blocco:last-child{
+  border-right: none;
+}
+
+.riga:last-child .blocco{
+  border-bottom: none
+}
+
+.righe{
+  margin-top: 40px;
 }
