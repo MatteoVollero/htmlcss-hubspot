@@ -30,7 +30,7 @@ body{
 
 .container img{
   /* float: left; */
-  padding: 10px 10px;
+  padding: 10px 5px;
 }
 
 .navbar{
@@ -324,7 +324,7 @@ body{
    background-color: #00abb6;
    text-align: center;
    margin-top: 40px;
-   height: 450px;
+   height: 560px;
    color: white;
 }
 
@@ -355,7 +355,7 @@ body{
 
 .blocco{
   width: 25%;
-  height: 100px;
+  height: 150px;
   /* background-color: green; */
   border-right: 1px solid white;
   border-bottom:  1px solid white;
@@ -363,17 +363,20 @@ body{
 }
 
 .sezione{
-  padding-top: 25px;
   text-align: center;
-
+  margin-top: 10px;
 }
 
-.sezione h4{
-  margin-bottom: 5px;
+.sezione p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 30px;
+  font-style: bold;
 }
 
-.sezione h3{
-  margin-bottom: 5px;
+.riga:last-child .blocco:first-child img{
+  width: 150px;
+  height: 33px;
 }
 
 .blocco:last-child{
@@ -384,6 +387,16 @@ body{
   border-bottom: none
 }
 
+.riga:last-child .sezione{
+  padding-top: 10px;
+}
+
 .righe{
   margin-top: 40px;
+}
+
+.fa-handshake{
+  background-color: inherit;
+  height: 15px;
+  size: 2x;
 }
