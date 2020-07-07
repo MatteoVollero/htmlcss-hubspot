@@ -395,8 +395,86 @@ body{
   margin-top: 40px;
 }
 
-.fa-handshake{
-  background-color: inherit;
-  height: 15px;
-  size: 2x;
+.bottom-main{
+  width: 60%;
+  height: 200px;
+  margin-top: 40px;
+}
+
+.bottom-column1{
+  text-align: center;
+  width: 25%;
+  color: #33475b;
+  float: left;
+}
+
+.bottom-column1 h1{
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.bottom-column1 p{
+  font-size: 12px;
+  line-height: 20px;
+  color: #596979;
+}
+
+.bottom-column1 span{
+  font-weight: bold;
+  font-size: 13px;
+  color: #33475b;
+}
+
+.bottom-column2{
+  width: 60%;
+  height: 100px;
+  float: left;
+  margin-left: 15%;
+}
+
+.box-foto{
+  width: 20%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 50px;
+  margin-right: 2%;
+  float: left;
+}
+
+.atlassian{
+  background-image: url(../img/atlassian.webp);
+}
+
+.doordash{
+  background-image: url(../img/doordash.webp);
+}
+
+.crowd{
+  background-image: url(../img/crowd.webp);
+}
+
+.surveyMonkey{
+  background-image: url(../img/SurveyMonkey.svg);
+}
+
+.subaru{
+  background-image: url(../img/subaru.webp);
+}
+
+.wistia{
+  background-image: url(../img/wistia.webp);
+}
+
+.classpass{
+  background-image: url(../img/classpass.webp);
+}
+
+.vmware{
+  background-image: url(../img/vmware.webp);
+}
+
+.box-foto img{
+  width: 100%;
+  max-height: 60px;
 }
