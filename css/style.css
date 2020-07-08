@@ -559,5 +559,56 @@ footer{
 
 .footer-column .fab{
   color: white;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.bottom-footer1{
+  text-align: center;
+}
+
+.bottom-footer1 hr{
+  color: white;
+  width: 950px;
+  margin-left: 90px;
+}
+
+.bottom-footer1 h4{
+  color: #cbd6e2;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.bottom-footer2{
+  margin-left: 90px;
+  width: 100%;
+}
+
+.hubspot-image{
+  width: 50%;
+  float: left;
+}
+
+.hubspot-image img{
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.hubspot-image p{
+  color: white;
+}
+
+.right-footer{
+  width: 39%;
+  text-align: right;
+  margin-right: 35px;
+  float:left;
+  color: #cbd6e2;
+}
+
+.right-footer li{
+  list-style: none;
+  display: inline-block;
   margin-right: 20px;
+  font-size: 12px;
 }
