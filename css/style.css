@@ -83,23 +83,20 @@ body{
   background-color: transparent;
 }
 
-.btn a{
+a{
   text-decoration: none;
-  color: #fe775a;
 }
 
 .btn-vuoto{
   border-color: #fe775a;
+  color: #fe775a;
   border-width: 1px;
 }
 
 .btn-pieno{
   background-color: #fe775a;
   border: none;
-}
-
-.btn-pieno a{
-  color: white
+  color: white;
 }
 
 .hubspot-info{
@@ -523,8 +520,7 @@ body{
 }
 
 .box-foto img{
-  width: 100%;
-  max-height: 60px;
+  display: none;
 }
 
 footer{
@@ -565,7 +561,7 @@ footer{
   font-size: 11px;
 }
 
-.footer-column button a{
+.footer-column a button{
   color: #425768;
 }
 
