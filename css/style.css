@@ -79,9 +79,13 @@ body{
 
 .btn{
   border-radius: 5px;
-  color: #fe775a;
   padding: 10px 15px;
   background-color: transparent;
+}
+
+.btn a{
+  text-decoration: none;
+  color: #fe775a;
 }
 
 .btn-vuoto{
@@ -90,9 +94,12 @@ body{
 }
 
 .btn-pieno{
-  color: white;
   background-color: #fe775a;
   border: none;
+}
+
+.btn-pieno a{
+  color: white
 }
 
 .hubspot-info{
@@ -523,6 +530,7 @@ body{
 footer{
   margin-top: 40px;
   background-color: #32495b;
+  height: 600px;
 }
 
 .footer-container{
@@ -543,7 +551,8 @@ footer{
   font-size: 12px;
 }
 
-.footer-column p{
+.footer-column li{
+  list-style: none;
   line-height: 30px;
   color: #cbd6e2;
   font-size: 10px;
@@ -551,10 +560,13 @@ footer{
 
 .footer-column button{
   background-color: #dadee0;
-  color: #425768;
   padding: 8px 5px;
   margin-top: 10px;
   font-size: 11px;
+}
+
+.footer-column button a{
+  color: #425768;
 }
 
 .footer-column .fab{
